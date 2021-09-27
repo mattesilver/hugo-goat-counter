@@ -1,0 +1,8 @@
+name = "Goat Counter"
+license = "MIT"
+licenselink = "https://github.com/mattesilver/hugo-goat-counter/blob/master/LICENSE"
+description = "GoHugo partial template for goatcounter.com"
+min_version = "0.41.0"
+
+[author]
+  name = "Raphael Krupinski"

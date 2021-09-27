@@ -1,0 +1,9 @@
+{{ if (or site.Params.goatCounterId site.Params.goatCounterUri) -}}
+<script data-goatcounter='
+{{- if isset site.Params "goatCounterUri" -}}
+{{ site.Params.goatCounterUri}}
+{{- else if site.Params.goatCounterId -}}
+https://{{- site.Params.goatCounterId -}}.goatcounter.com/count
+{{- end -}}
+' defer src="//gc.zgo.at/count.js"></script>
+{{- end }}
