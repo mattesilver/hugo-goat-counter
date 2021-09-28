@@ -1,5 +1,7 @@
 # GoatCounter partial template for Hugo
 
+https://www.goatcounter.com/
+
 ## Usage
 
 ### Template
